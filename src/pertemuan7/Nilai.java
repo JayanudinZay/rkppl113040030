@@ -5,6 +5,7 @@ public class Nilai {
 	private Mahasiswa mhs;
 	private Matakuliah mk;
 	private double nilai;
+	private String grade;
 
 	public Nilai() {
 
@@ -14,6 +15,15 @@ public class Nilai {
 		this.mhs = mhs;
 		this.mk = mk;
 		this.nilai = nilai;
+	}
+
+	
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
 	}
 
 	public Mahasiswa getMhs() {
