@@ -6,6 +6,7 @@ public class Nilai {
 	private Matakuliah mk;
 	private double nilai;
 	private String grade;
+	private double ipk;
 
 	public Nilai() {
 
@@ -48,6 +49,15 @@ public class Nilai {
 
 	public void setNilai(double nilai) {
 		this.nilai = nilai;
+	}
+	
+
+	public double getIpk() {
+		return ipk;
+	}
+
+	public void setIpk(double ipk) {
+		this.ipk = ipk;
 	}
 
 	@Override
