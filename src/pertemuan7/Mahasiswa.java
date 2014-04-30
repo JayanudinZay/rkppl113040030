@@ -39,6 +39,7 @@ public class Mahasiswa {
 		this.alamat = alamat;
 	}
 @Override
+//method main
 public String toString() {
 	// TODO Auto-generated method stub
 	return nrp+" - "+nama+" - "+alamat;
