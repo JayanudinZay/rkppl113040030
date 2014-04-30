@@ -7,10 +7,23 @@ public class Nilai {
 	private double nilai;
 	private String grade;
 	private double ipk;
+	private String alamat;
+	
 
 	public Nilai() {
 
 	}
+
+	
+	public String getAlamat() {
+		return alamat;
+	}
+
+
+	public void setAlamat(String alamat) {
+		this.alamat = alamat;
+	}
+
 
 	public Nilai(Mahasiswa mhs, Matakuliah mk, double nilai) {
 		this.mhs = mhs;
